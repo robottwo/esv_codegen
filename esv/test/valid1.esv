@@ -1,0 +1,15 @@
+#@esv the_key the_index a_value b_value
+
+#@field the_key   int key
+#@field the_index int index
+#@field a_value float
+#@field b_value |S4
+
+#@delimiter 
+#@null null
+
+1 1 50.0  first_entry
+2 1 100.0 second_entry
+3 2 200.0 third_entry
+4 2 200.0 fourth_entry
+5 2 200.0 fifth_entry

@@ -1,0 +1,14 @@
+#@esv the_key the_index a_value b_value
+
+# This file is invalid because it is missing
+# a definition for b_value.
+
+#@field the_key   int key
+#@field the_index int index
+#@field a_value float
+
+1 1 50.0 foo
+2 1 100.0 foo 
+3 2 200.0 foo
+4 2 200.0 foo
+5 2 200.0 foo

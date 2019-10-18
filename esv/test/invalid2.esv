@@ -1,0 +1,16 @@
+#@esv the_key the_index a_value
+
+# This file is invalid because it has duplicate entries
+# for the key field. It does have a valid schema, so we
+# don't expect it o complain when loading the schema, only
+# when loading the data.
+
+#@field the_key   int key
+#@field the_index int index
+#@field a_value float
+
+1 1 50.0
+2 1 100.0
+3 2 200.0
+3 2 200.0
+3 2 200.0

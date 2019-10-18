@@ -1,0 +1,11 @@
+#@esv instrument market broker direction order_type state size price
+#
+#
+#@field instrument |S32
+#@field market     |S32
+#@field broker     |S32
+#@field direction  <i2
+#@field order_type <i2
+#@field state      <i2
+#@field size       <f8
+#@field price      <f8

@@ -1,0 +1,15 @@
+#@esv the_key the_index a_value
+
+# This file is invalid because it has a bad keyword in the
+# field definition.
+
+#@field the_key   int key
+#@field the_index int bad_keyword
+#@field a_value float
+
+
+1 1 50.0
+2 1 100.0
+3 2 200.0
+3 2 200.0
+3 2 200.0
